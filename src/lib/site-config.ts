@@ -86,18 +86,23 @@ export const testimonials = [
       "Came within the hour when our panel started tripping at night. Fixed it properly, not a patch job.",
     name: "Ayesha Raza",
     role: "Homeowner, DHA Phase 6",
+    // Drop the photo in public/images/testimonials/ and point this at it,
+    // e.g. "/images/testimonials/ayesha.jpg". Leave empty for the placeholder.
+    image: "/images/testimonials/ayesha.jpg",
   },
   {
     quote:
       "Rewired our whole shop before opening. Clean work, and he explained every circuit on the board.",
     name: "Bilal Farooqi",
     role: "Shop owner, Bahadurabad",
+    image: "/images/testimonials/bilal.jpg",
   },
   {
     quote:
       "Did proper earthing for the whole house after our fridge kept getting shocks. Checked the meter load first instead of just selling us extra work.",
     name: "Nadia Sheikh",
     role: "Homeowner, Clifton",
+    image: "/images/testimonials/nadia.jpg",
   },
 ];
 

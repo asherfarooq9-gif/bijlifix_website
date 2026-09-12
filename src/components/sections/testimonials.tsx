@@ -24,11 +24,19 @@ export function Testimonials() {
                 &ldquo;{t.quote}&rdquo;
               </blockquote>
               <figcaption className="mt-auto flex items-center gap-3 text-sm">
-                <PhotoSlot
-                  label="Photo"
-                  rounded="rounded-full"
-                  className="size-11 shrink-0"
-                />
+                {t.image ? (
+                  <img
+                    src={t.image}
+                    alt={t.name}
+                    className="size-11 shrink-0 rounded-full object-cover"
+                  />
+                ) : (
+                  <PhotoSlot
+                    label="Photo"
+                    rounded="rounded-full"
+                    className="size-11 shrink-0"
+                  />
+                )}
                 <div>
                   <span className="block font-semibold text-foreground">
                     {t.name}
