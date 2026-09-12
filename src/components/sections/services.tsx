@@ -99,19 +99,6 @@ export function Services() {
                       </div>
                     )}
                   </div>
-
-                  <div className="mt-3 flex items-center gap-2">
-                    <ServiceIcon
-                      weight="fill"
-                      className="size-5 shrink-0 text-primary"
-                    />
-                    <h3 className="text-base font-bold text-foreground">
-                      {service.title}
-                    </h3>
-                  </div>
-                  <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
-                    {service.description}
-                  </p>
                 </motion.div>
               );
             })}
