@@ -3,9 +3,8 @@ export const siteConfig = {
   tagline: "Electrician, Karachi",
   phoneDisplay: "+92 313 0068056",
   phoneHref: "tel:+923130068056",
-  // TODO: replace with the real WhatsApp business number before launch.
-  whatsappDisplay: "+92 300 000 0000",
-  whatsappHref: "https://wa.me/923000000000",
+  whatsappDisplay: "+92 313 0068056",
+  whatsappHref: "https://wa.me/923130068056",
   email: "hello@bijlifix.com",
   hours: "Available 24/7 for emergency calls",
   areasServed: [
