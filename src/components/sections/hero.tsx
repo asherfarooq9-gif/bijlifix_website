@@ -45,8 +45,8 @@ export function Hero() {
 
         <div className="relative aspect-[4/5] w-full max-w-sm justify-self-center overflow-hidden rounded-xl lg:justify-self-end">
           <Image
-            src="/images/gallery/job2.jpeg"
-            alt="Recent electrical fixture installation, Karachi"
+            src="/images/hero/electrician.jpg"
+            alt="Electrician at work, Karachi"
             fill
             priority
             sizes="(min-width: 1024px) 384px, 100vw"
