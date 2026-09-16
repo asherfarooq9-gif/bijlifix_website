@@ -1,5 +1,13 @@
 import { ImageAutoSlider } from "@/components/ui/image-auto-slider";
 
+const GALLERY_IMAGES = [
+  { src: "/images/gallery/job1.jpeg", alt: "Finished electrical job, Karachi" },
+  { src: "/images/gallery/job2.jpeg", alt: "Finished electrical job, Karachi" },
+  { src: "/images/gallery/job3.jpeg", alt: "Finished electrical job, Karachi" },
+  { src: "/images/gallery/job4.jpeg", alt: "Finished electrical job, Karachi" },
+  { src: "/images/gallery/job5.jpeg", alt: "Finished electrical job, Karachi" },
+];
+
 export function Gallery() {
   return (
     <section id="work" aria-labelledby="gallery-heading" className="bg-secondary">
@@ -11,11 +19,10 @@ export function Gallery() {
           Recent work around Karachi
         </h2>
         <p className="mx-auto mt-3 max-w-[60ch] text-center text-base leading-relaxed text-muted-foreground">
-          A running strip of finished jobs. Add your own site photos here as
-          you shoot them.
+          A running strip of finished jobs.
         </p>
 
-        <ImageAutoSlider className="mt-10" />
+        <ImageAutoSlider images={GALLERY_IMAGES} className="mt-10" />
       </div>
     </section>
   );

@@ -1,7 +1,7 @@
+import Image from "next/image";
 import { Clock } from "@phosphor-icons/react/dist/ssr";
 import { CallButton, WhatsAppButton } from "@/components/cta-buttons";
 import { GradientWave } from "@/components/ui/gradient-wave";
-import { PhotoSlot } from "@/components/photo-slot";
 
 const KARACHI_SKY_COLORS = [
   "#1e3a8a",
@@ -43,12 +43,16 @@ export function Hero() {
           </div>
         </div>
 
-        <PhotoSlot
-          tone="dark"
-          rounded="rounded-xl"
-          label="Add a photo of the electrician here, portrait 1000×1250 works best"
-          className="aspect-[4/5] w-full max-w-sm justify-self-center lg:justify-self-end"
-        />
+        <div className="relative aspect-[4/5] w-full max-w-sm justify-self-center overflow-hidden rounded-xl lg:justify-self-end">
+          <Image
+            src="/images/gallery/job2.jpeg"
+            alt="Recent electrical fixture installation, Karachi"
+            fill
+            priority
+            sizes="(min-width: 1024px) 384px, 100vw"
+            className="object-cover"
+          />
+        </div>
       </div>
     </section>
   );

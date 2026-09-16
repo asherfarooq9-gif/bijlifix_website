@@ -1,9 +1,8 @@
 export const siteConfig = {
   name: "Bijlifix",
   tagline: "Electrician, Karachi",
-  // TODO: replace with the real business phone number before launch.
-  phoneDisplay: "+92 300 000 0000",
-  phoneHref: "tel:+923000000000",
+  phoneDisplay: "+92 313 0068056",
+  phoneHref: "tel:+923130068056",
   // TODO: replace with the real WhatsApp business number before launch.
   whatsappDisplay: "+92 300 000 0000",
   whatsappHref: "https://wa.me/923000000000",
