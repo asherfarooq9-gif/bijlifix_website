@@ -1,4 +1,4 @@
-import { PhoneCall, WhatsappLogo, EnvelopeSimple } from "@phosphor-icons/react/dist/ssr";
+import { PhoneCall, WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 import { LogoMark } from "@/components/logo";
 import { siteConfig } from "@/lib/site-config";
 
@@ -49,13 +49,6 @@ export function Footer() {
             >
               <WhatsappLogo weight="fill" className="size-4 text-primary" />
               {siteConfig.whatsappDisplay}
-            </a>
-            <a
-              href={`mailto:${siteConfig.email}`}
-              className="flex items-center gap-2 font-medium text-foreground hover:text-primary"
-            >
-              <EnvelopeSimple weight="fill" className="size-4 text-primary" />
-              {siteConfig.email}
             </a>
           </div>
         </div>

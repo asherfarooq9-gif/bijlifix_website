@@ -5,7 +5,6 @@ export const siteConfig = {
   phoneHref: "tel:+923130068056",
   whatsappDisplay: "+92 313 0068056",
   whatsappHref: "https://wa.me/923130068056",
-  email: "hello@bijlifix.com",
   hours: "Available 24/7 for emergency calls",
   areasServed: [
     "DHA",
